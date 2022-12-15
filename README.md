@@ -20,7 +20,7 @@
 Nunca debemos colocar la ejecución de una funcion directamente en un functional component porque cada vez que se renderice ese componente, se volverá a ejecutar la función.
 
 ### useEffect
-Cuando un componente sufre algún cambio, este se vuelve a renderizar ejecutando todo el código que tiene en su interior, pero ahi veces que no queremos que se ejecute cierta parte del código nuevamente como por ejemplo una función que llama a una API y para eso se utiliza el useEffect
+Cuando un componente sufre algún cambio, este se vuelve a renderizar ejecutando todo el código que tiene en su interior, pero hay veces que no queremos que se ejecute cierta parte del código nuevamente como por ejemplo una función que llama a una API y para eso se utiliza el useEffect
 
 El useEffect sirve para disparar ejectos secundarios, como algún proceso cuando algo suceda 
 
