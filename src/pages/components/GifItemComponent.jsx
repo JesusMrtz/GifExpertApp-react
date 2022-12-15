@@ -1,3 +1,6 @@
+import PropTypes from 'prop-types';
+
+
 export function GifItemComponent({ image }) {
     return (
         <div className="card">
@@ -5,4 +8,9 @@ export function GifItemComponent({ image }) {
             <p>{ image.title }</p>
         </div>
     );
+}
+
+
+GifItemComponent.propTypes = {
+    image: PropTypes.object.isRequired
 }
