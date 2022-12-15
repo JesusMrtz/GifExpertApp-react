@@ -31,5 +31,8 @@ Ayuda principalmente a identificar problemas en los componentes con sus cliclos 
 
 > El StricMode solo se aplica en modo desarrollador
 
-### Compilar el build de producción
-Se ejectuta el siguiente código `npm run build`
+### Crear ambiente de pruebas para un proyecto React hecho con vite
+> Si creamos el proyecto con la ayuda de *vite* se tiene instalar el paquete de [Jest](https://jestjs.io/) con el siguiente comando `npm install --dev jest @types/jest` y para la configuración se debe ejecutar el comando `npm install --save-dev babel-jest @babel/core @babel/preset-env`
+> Se necesitará configurar el archivo `babel.config.cjs`
+> Actualmente Jest no es bueno trabajando con el DOM, por lo cual se necesita el test-library para react. Se puede descargar con el siguiente comando `npm install --save-dev @testing-library/react jest-environment-jsdom`.
+> **NOTA:** Si estas trabajando con una versión de node inferior a la 18.0.0, necesitarás configurar el archivo `jest.config.cjs` y agregar el paquete `whatwg-fetch` para aceptar las pruebas en funciones *async*
