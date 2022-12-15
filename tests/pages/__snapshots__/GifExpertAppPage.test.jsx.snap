@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en la page <GifExpertAppPage /> Creamos el snapshot 1`] = `
+<div>
+  <h1>
+    GifExpertApp
+  </h1>
+  <form
+    role="form"
+  >
+    <input
+      placeholder="Buscar GIF's"
+      type="text"
+      value=""
+    />
+  </form>
+  <strong
+    class="message"
+  >
+    Vamos a buscar imagenes 🍔
+  </strong>
+</div>
+`;
